@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Cubano-Regular';
+    background: url(images/sayagata-400px.png) center center;
+}
+
+
+/*Font faces*/
+@font-face{
+    font-family:'Cubano-Regular';
+    src: url(fonts/Cubano-Regular.otf);
+}
+
+@font-face{
+    font-family: 'Nunito-Regular';
+    src: url(fonts/Nunito-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Nunito-SemiBold';
+    src: url(fonts/Nunito-SemiBold.ttf);
+}

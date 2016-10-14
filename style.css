@@ -6,6 +6,58 @@ html, body{
 }
 
 
+/*section cover*/
+#cover{
+    height: 100%;
+    background: url('images/cover.jpg') center;
+    background-size: cover;
+    color: white;
+}
+
+/*awsome color picker give rgba value and press ctrl+E*/
+
+.wall-skicker{
+    background: rgba(145, 185, 134, 0.16);
+    padding: 9.5rem 18rem 14rem 3rem;
+    font-family: 'Nunito-SemiBold';
+    font-size: 3rem;
+    margin-left: 30px;
+}
+
+.moto{
+    font-family: 'Cubano-Regular';
+    font-size: 2.5rem;
+    margin-top: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.btn-lg{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid rgba(44, 123, 20, 0.46);
+    transition: 0.5s; /*awsome*/
+}
+
+.btn-lg:hover, btn-lg:focus, btn-lg:active{
+    background-color: rgba(103, 168, 91, 0.42); 
+    border: 1px solid rgba(79, 145, 59, 0.46);
+    transition: 0.5s; /*awsome*/
+}
+
+.fa-arrow-down{
+    color: rgba(207, 226, 202, 0.72);
+    margin-left: 30rem;
+    margin-top: 50px;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.fa-arrow-down:hover{
+    color: rgba(66, 136, 40, 0.53);
+    transform: 0.5s;
+}
+
 /*Font faces*/
 @font-face{
     font-family:'Cubano-Regular';
